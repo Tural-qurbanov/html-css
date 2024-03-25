@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-photo/facebook-background-with-logos_125322-28.jpg);
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    height: 600px;
+    margin: 70px;
+    box-shadow: 10px 10px 20px black;
+    overflow: hidden;
+}
+img {
+    height: 607px;
+    width: 390px;
+    border-radius: 10px;
+}
+
+.intro {
+    height: 250px;
+    width: 450px;
+    border-radius: 70px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 00px;
+    background-color: rgb(115, 147, 229);
+    transition: 2s;
+    box-shadow: 10px 10px 20px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    margin: 20px;
+    font-family: Algerian;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+@font-face {
+    font-family:Algerian;
+    src: url(/fonts/Algerian.otf);
+}
+
+.card:hover {
+    cursor: grab;
+
+}
+
+.card:hover .intro{
+    height: 200px;
+    bottom: 200px;
+    background-color: rgb(221, 212, 212);
+
+}
+
+.card:hover p {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card:hover img {
+    transform: scale(1.2)  rotate(-3deg);
+}
