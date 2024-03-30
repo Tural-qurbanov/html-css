@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-links {
+    display: flex;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    bottom: 55px;
+    
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #0deeba;
+}
+
+body {
+    background-image: url(https://hdfon.ru/wp-content/uploads/hdfon.ru-833797061.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+a:hover {
+    color: #09b7cb;
+}
+
+.about-info {
+    position: relative;
+    top: 30vh;
+    left: 70px;
+    width: 300px;
+    box-shadow: 0px 0px 0px ;
+
+}
+
+@font-face {
+    font-family: binds;
+    src: url(/Fonts/Canter\ Light.otf);
+}
+
+.about-desc {
+    font-family: binds;
+    color: #faf7f7;
+}
+
+.about-content {
+    font-family: binds;
+    color: #e7e7e7;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50vh;
+    background-color: rgb(200, 201, 207);
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+.button2 {
+    position: relative;
+    right: 150px;
+    bottom: 30px;
+}
+

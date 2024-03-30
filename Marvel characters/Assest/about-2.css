@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-links {
+    display: flex;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    bottom: 55px;
+    
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #d13613;
+}
+
+body {
+    background-image: url(https://kalix.club/uploads/posts/2023-12/1703584039_kalix-club-p-oboi-na-rabochii-stol-dedpul-foni-krasivo-41.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+a:hover {
+    color: #d5530d;
+}
+
+.about-info {
+    position: relative;
+    top: 30vh;
+    left: 70px;
+    width: 300px;
+    box-shadow: 0px 0px 0px ;
+
+}
+
+@font-face {
+    font-family: binds;
+    src: url(/Fonts/Canter\ Light.otf);
+}
+
+.about-desc {
+    font-family: binds;
+    color: #000000;
+}
+
+.about-content {
+    font-family: binds;
+    color: #000000;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+.button2 {
+    position: relative;
+    right: 150px;
+    bottom: 30px;
+}
+
