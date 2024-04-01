@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-15-at-11.24.37-AM.jpg?w=1600&h=900&crop=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
