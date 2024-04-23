@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    width: 325px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,2);
+    margin: 20px;
+    font-family: Fonts;
+}
+
+.card img {
+    width: 400px;
+    height: 200px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family:Fonts ;
+    src: url(/fonts/Algerian.otf);
+}
+
+.name-text {
+   display: flex;
+   justify-content: center;
+   width: 350px;
+   position: relative;
+   left: 520px;
+  top: 40px;
+
+}
