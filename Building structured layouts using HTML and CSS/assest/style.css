@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Name-Text {
+    display: flex;
+    justify-content: start;
+
+}
+
+.context {
+    position: relative;
+    top: 60px;
+    width: 340px;
+    height: 100px;
+}
+
+#txt {
+    position: relative;
+    top: 25px;
+    right: 30px;
+}
+
+#nm {
+    position: relative;
+    left: 20px;
+}
+
+.container {
+    position: relative;
+    top: 150px;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+}
+
+
+.main {
+    display: flex;
+}
+
+#img-4 {
+    position: relative;
+    top: 200px;
+    right: 400px;
+
+}
+
+#img-3 {
+    position: relative;
+
+}
+
+#img-2 {
+    position: relative;
+    right: 270px;
+
+}
+
+#img-1 {
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+
+#p-1 {
+    position: relative;
+    left: 140px;
+    top: 200px;
+}
+
+#p-2 {
+    position: relative;
+    right: 235px;
+}
+
+#p-4 {
+    position: relative;
+    top: 200px;
+    right: 370px;
+}
+
+#p-3 {
+    position: relative;
+    left: 30px;
+}
+
+.img {
+    position: relative;
+    top: 500px;
+}
+
+#img-main {
+    width: 100%;
+}
+
+#info-context {
+    position: relative;
+    top: 340px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.info-quantity {
+    display: flex;
+    position: relative;
+    top: 400px;
+    color: rgb(252, 254, 255);
+    font-size: 30px;
+    left: 30px;
+    padding: 10px;
+}
+
+#inf-m-4 {
+    position: relative;
+    left: 840px;
+}
+
+#inf-m-3 {
+    position: relative;
+    left: 640px;
+}
+
+#inf-m-2 {
+    position: relative;
+    left: 440px;
+}
+
+.main-content {
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#img-mz {
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    right: 150px;
+}
+
+#name-mzn {
+    position: relative;
+    right: 120px;
+    top: 55px;
+}
+
+.footer-main {
+    position: relative;
+    top: 520px;
+    width: 300px;
+    height: 100px;
+    left: 550px;
+}
+
+.social-network {
+    font-size: 100px;
+}
