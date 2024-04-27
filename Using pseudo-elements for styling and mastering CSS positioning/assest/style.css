@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+#p {
+    position: relative;
+    top: 55px;
+    right: 170px;
+    color: red;
+}
+
+body {
+    background-color: #262626;
+
+}
+
+.img {
+    position: relative;
+    top: 150px;
+}
+
+img {
+    width: 509px;
+    height: 160px;
+}
+
+.main {
+    position: relative;
+    top: 157px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.main-button {
+    position: relative;
+    top: 135px;
+}
+
+button {
+    width: 120px;
+    color: white;
+     background-color: #262626;
+     border: 1px solid red;
+}
+
+.network {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+i {
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.contacts {
+    position: relative;
+    top: 130px;
+    color: aliceblue;
+    left: 500px;
+}
+
+.contacts-2 {
+    position: relative;
+    top: 100px;
+    color: aliceblue;
+    left: 800px;
+}
+
